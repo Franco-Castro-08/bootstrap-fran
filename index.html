@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,58 @@
 </head>
 
 <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="bg-primary p-2 ps-4 pe-4 container-fluid">
+          <a class="navbar-brand" href="#">Encabezado</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <header>
+        <h1 class="text-center mt-3">Bootstrap</h1>
+        <p class="text-center">Sitio responsivo creado con Bootstrap</p>
+      </header>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-4 bg-success text-black text-center mt-3">Columna 1</div>
+            <div class="col-4 bg-secondary text-white text-center mt-2">Columna 2</div>
+            <div class="col-4 bg-primary text-white text-center mt-1">Columna 3</div>
+        </div>
+    </div>
+
+
     <h1 class="h1">Titulo 1</h1>
     <h2 class="h2">Titulo 2</h2>
     <h3 class="h3">Titulo 3</h3>
